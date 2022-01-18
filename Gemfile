@@ -8,7 +8,6 @@ gem "rails", "~> 7.0.1"
 
 # Use postgresql as the database for Active Record
 
-
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -18,6 +17,11 @@ gem 'devise-jwt'
 
 #cors
 gem 'rack-cors'
+
+
+gem 'multi_json'
+gem 'rack'
+gem 'rspec', '~>3.7.0'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
